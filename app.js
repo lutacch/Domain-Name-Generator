@@ -5,9 +5,7 @@ let noun = ["jogger", "racoon", "dog", "cat", "coconut"];
 for (let a = 0; a < pronoun.length; a++) {
   for (let i = 0; i < adj.length; i++) {
     for (let x = 0; x < noun.length; x++) {
-      let hola = document.createElement("div");
-      hola.innerText = `${pronoun[a]}${adj[i]}${noun[x]}.com`;
-      document.body.appendChild(hola);
+        console.log(`${pronoun[a]}${adj[i]}${noun[x]}.com`); 
     }
   }
 }
